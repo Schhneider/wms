@@ -1,0 +1,120 @@
+html { 
+    overflow-x: hidden;
+    zoom:1.5;
+    height: 100%;
+    background-image: url('WMS_Background.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 1;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body { 
+    transform: scale(1);
+    transform-origin: 0 0;
+    margin: 0;
+    padding: 0;
+    min-height: 700px;
+    height: auto !important;
+    height: 600px;
+    width:100%;
+    backdrop-filter: blur(20px);
+    opacity:1;
+
+}
+
+
+#buttons{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+ /* .content {
+    position:fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: auto;
+} */
+.logo{
+    width: 20vh;
+    position:relative;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.logo:hover{
+    filter: grayscale(0%);
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.button{
+    border-radius:4px; 
+    width:100px; 
+    height:30px;    
+}
+.button:hover{
+    background-color:rgba(53,101,158,0.5);
+    cursor: pointer;
+}
+
+
+.in_out form {
+    position: relative;
+    width: 70%;
+    text-align: right;
+}
+
+.in_out label {
+    width: 30%;
+    position: absolute;
+    left: 30%;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.in_out input[type=submit] {
+    background-color: #9AE5F8;
+    border-radius:4px; 
+    width:100px; 
+    height:30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.in_out input[type=submit]:hover{
+    background-color:rgba(53,101,158,0.5);
+    cursor: pointer;
+}
+.search{
+    display: block;
+    margin: 0 auto;
+    width:100%; /* Set this based on the size of the text box you are using */
+    text-align: center;
+}
+.allstock{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(53,101,158,0.5)
+}
+.history_style{
+    width: 50%;
+    margin-bottom:50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(53,101,158,0.8)
+}
